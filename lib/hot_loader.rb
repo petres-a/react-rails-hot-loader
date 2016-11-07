@@ -3,7 +3,7 @@ module React
     module HotLoader
       mattr_accessor :server
       mattr_accessor :port
-      self.port = 8082
+      self.port = 8088
 
       # Start _or_ restart the server
       def self.restart
